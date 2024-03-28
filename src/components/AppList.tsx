@@ -19,6 +19,27 @@ const AppList = React.memo((props: any) => {
             </MDBCol>
 
             <MDBCol xs={12} className="my-5 d-flex justify-content-center">
+                <a href="https://quickshare.pryxy.com" target="_blank" className="card app-list-card">
+                    <MDBRow className='g-0'>
+                        <MDBCol md='4'>
+                        <MDBCardImage src={require('../assets/quickshare.png')} alt='...' fluid />
+                        </MDBCol>
+                        <MDBCol md='8' className="d-flex align-items-center">
+                            <MDBCardBody className="">
+                                <MDBCardTitle className="card-title">QuickShare</MDBCardTitle>
+                                <MDBCardText className="card-desc text-white">
+                                    Free and real-time content sharing. 
+                                    Share texts and files instantly. 
+                                    Collaborate with others in real-time making it easy to work together 
+                                    on projects, documents, and ideas. No Signup needed!
+                                </MDBCardText>
+                            </MDBCardBody>
+                        </MDBCol>
+                    </MDBRow>
+                </a>
+            </MDBCol>
+
+            <MDBCol xs={12} className="my-5 d-flex justify-content-center">
                 <a href="https://custup.pryxy.com" target="_blank" className="card app-list-card">
                     <MDBRow className='g-0'>
                         <MDBCol md='4'>
